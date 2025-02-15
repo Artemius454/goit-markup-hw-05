@@ -729,10 +729,12 @@ font-weight: 700;
     letter-spacing: 0.04em;
     color: #8e8f99;
     align-items: center;
+    display: flex;
 }
 .modal-check-item {
     width: 16px;
     height: 16px;
+    flex-shrink: 0;
     border-radius: 2px;
     display: inline-flex;
     border: 1px solid rgba(46, 47, 66, 0.4);
